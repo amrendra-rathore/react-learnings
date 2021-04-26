@@ -1,0 +1,9 @@
+header.div.nav.ul {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .s-header__nav {
+      flex-flow: row wrap;
+      
+  }

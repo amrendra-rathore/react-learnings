@@ -7,7 +7,7 @@ const ContactUs = () => (
         <h3 className="section-header-allcaps">Contact Us</h3>
       </div>
     </div>
-    <div className="row s-contact__content">
+    <div className="row s-contact__content" style={{ textAlign: 'left' }}>
       <div className="column large-7 medium-12">
         <h4 className="huge-text">
           Have a new project in mind? Lets collaborate and build something awesome.
@@ -34,7 +34,7 @@ const ContactUs = () => (
                 Phone
               </h5>
               <p className="contact-block__content">
-                <a href="tel:+91776083821">+91-7760838211</a>
+                <a href="tel:+91776083821">+91 776 083 8211</a>
               </p>
             </div>
             {' '}

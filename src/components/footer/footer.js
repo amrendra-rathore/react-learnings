@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/control-has-associated-label */
-/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 
 const Footer = () => (
@@ -8,31 +6,31 @@ const Footer = () => (
       <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
         <ul className="s-footer__social">
           <li>
-            <a href="#0">
+            <a href="https://facebook.com">
               <i className="fab fa-facebook-f" aria-hidden="true" />
               Facebook
             </a>
           </li>
           <li>
-            <a href="#0">
+            <a href="https://twitter.com/thewolfraptor">
               <i className="fab fa-twitter" aria-hidden="true" />
               Twitter
             </a>
           </li>
           <li>
-            <a href="#0">
+            <a href="https://instagram.com">
               <i className="fab fa-instagram" aria-hidden="true" />
               Instagram
             </a>
           </li>
           <li>
-            <a href="#0">
+            <a href="https://dribbble.com/">
               <i className="fab fa-dribbble" aria-hidden="true" />
               Dribble
             </a>
           </li>
           <li>
-            <a href="#0">
+            <a href="https://in.linkedin.com/in/wolfraptor">
               <i className="fab fa-linkedin-in" aria-hidden="true" />
               LinkedIn
             </a>

@@ -7,7 +7,7 @@ const Resume = () => (
         <h3 className="section-header-allcaps">Career</h3>
       </div>
       <div className="column large-9 tab-12">
-        <div className="resume-block">
+        <div className="resume-block" style={{ textAlign: 'left' }}>
           <div className="resume-block__header">
             <h4 className="h3">Successive Technologies, Pune</h4>
             <p className="resume-block__header-meta">
@@ -17,17 +17,15 @@ const Resume = () => (
               </span>
             </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-            vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae
-            aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam
-            nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+          <p style={{ textAlign: 'justify' }}>
+            Currently getting trained on Node.js, MongoDB, React.js and
+            other frontend or backend JS framework.
           </p>
         </div>
         {' '}
         {/* end resume-block */}
         <div className="resume-block">
-          <div className="resume-block__header">
+          <div className="resume-block__header" style={{ textAlign: 'left' }}>
             <h4 className="h3">Hewlett Packard Enterprise</h4>
             <p className="resume-block__header-meta">
               <span>Server Engineer (Technical Solutions Consultant)</span>
@@ -36,12 +34,33 @@ const Resume = () => (
               </span>
             </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-            vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae
-            aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam
-            nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
-          </p>
+          <ul style={{ textAlign: 'left' }}>
+            <li>
+              {' '}
+              Installing, configuring and Managing VMware ESXi , vCenter
+              and vSphere with DoD STIG implementation (security lockouts, VIBs, updates).
+            </li>
+            <li>
+              {' '}
+              Installing Drivers, Firmware, BIOS on repair server hardware on HPE Server’s.
+            </li>
+            <li>
+              Maintaining and testing processes related to business continuity.
+              Follow Vendors and VMware best practices.
+            </li>
+            <li>
+              {' '}
+              Security Hardening and Monitoring of VM&apos;s & ESXi servers
+              (CPU, Memory, Disk, Network Utilization) for Security Compliance.
+            </li>
+            <li> Patching and Upgrading ESXi via ssh and using upgrade Manager.</li>
+            <li>
+              {' '}
+              Performed Operating system Installation, Software installation on
+              servers through remote connections via RDP.
+              {' '}
+            </li>
+          </ul>
         </div>
         {' '}
         {/* end resume-block */}
@@ -54,7 +73,7 @@ const Resume = () => (
         <h3 className="section-header-allcaps">Education</h3>
       </div>
       <div className="column large-9 tab-12">
-        <div className="resume-block">
+        <div className="resume-block" style={{ textAlign: 'left' }}>
           <div className="resume-block__header">
             <h4 className="h3">P.E.S. Institute of Technology, Bangalore</h4>
             <p className="resume-block__header-meta">
@@ -64,16 +83,17 @@ const Resume = () => (
               </span>
             </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-            vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae
-            aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam
-            nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+          <p style={{ textAlign: 'left' }}>
+            Completed Bachelors of Engineering in the field of Information Science.
+            <br />
+            Presented an IEEE Paper on Blockchain
+            <br />
+            Created a project on Graph manipulation.
           </p>
         </div>
         {' '}
         {/* end resume-block */}
-        <div className="resume-block">
+        <div className="resume-block" style={{ textAlign: 'left' }}>
           <div className="resume-block__header">
             <h4 className="h3">Birla Public School, Pilani (Rajasthan)</h4>
             <p className="resume-block__header-meta">
@@ -83,11 +103,21 @@ const Resume = () => (
               </span>
             </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-            vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae
-            aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam
-            nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+          <p style={{ textAlign: 'left' }}>
+            <ul>
+              <li>
+                Won Silver Medal in State level Under-19 Yoga Competition,
+                Organised by IPSC.
+              </li>
+              <li>
+                Represented IPSC Under-19 Yoga Team at National Yoga Competition 2012
+                Organised by SGFI(School Games Federation India), at Chatrasal stadium, New Delhi.
+              </li>
+              <li>
+                Cleared CBSE All India Senior School Certificate Examination
+                (12th Boards Exam) from one of the most prestegious schools of India.
+              </li>
+            </ul>
           </p>
         </div>
         {' '}
@@ -102,11 +132,10 @@ const Resume = () => (
       </div>
       <div className="column large-9 tab-12">
         <div className="resume-block">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-            vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae
-            aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam
-            nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+          <p style={{ textAlign: 'justify' }}>
+            {' '}
+            Below I have listed the indicators with which you can quickly understand
+            what I am strong at and what is weak.
           </p>
           <ul className="skill-bars-fat">
             <li>
@@ -122,16 +151,20 @@ const Resume = () => (
               <strong>Javascript</strong>
             </li>
             <li>
-              <div className="progress percent50" />
-              <strong>Figma</strong>
+              <div className="progress percent65" />
+              <strong>Solidity</strong>
             </li>
             <li>
-              <div className="progress percent45" />
+              <div className="progress percent50" />
               <strong>Reactjs</strong>
             </li>
             <li>
               <div className="progress percent40" />
               <strong>Nodejs</strong>
+            </li>
+            <li>
+              <div className="progress percent80" />
+              <strong>Blockchain</strong>
             </li>
           </ul>
         </div>
