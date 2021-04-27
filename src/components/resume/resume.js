@@ -18,8 +18,8 @@ const Resume = () => (
             </p>
           </div>
           <p style={{ textAlign: 'justify' }}>
-            Currently getting trained on Node.js, MongoDB, React.js and
-            other frontend or backend JS framework.
+            Currently being trained on Node.js, MongoDB, React.js and
+            other frontend or backend JS frameworks.
           </p>
         </div>
         {' '}

@@ -11,8 +11,8 @@ const Portfolio = () => (
       <div className="column folio-item">
         <a href="#modal-01" className="folio-item__thumb">
           <img
-            src="images/portfolio/droplet.jpg"
-            srcSet="images/portfolio/droplet.jpg 1x,
+            src="./public/images/portfolio/droplet.jpg"
+            srcSet="./public/images/portfolio/droplet.jpg 1x,
                            images/portfolio/droplet@2x.jpg 2x"
             alt=""
           />
@@ -108,7 +108,6 @@ const Portfolio = () => (
     {' '}
     {/* end folio-list */}
   </section>
-
 );
 
 export default Portfolio;

@@ -38,11 +38,11 @@ const Footer = () => (
         </ul>
       </div>
       <div className="column large-7 medium-6 w-1000-stack ss-copyright">
-        {/* <span>© Copyright Ceevee 2021</span>
+        <span>© Copyright Ceevee 2021</span>
         <span>
-          Design by
-          <a href="https://www.styleshout.com/">StyleShout</a>
-        </span> */}
+          Made with  &#128153; by &nbsp;
+          <a href="https://github.com/amrendra-rathore">Amrendra Singh Rathore</a>
+        </span>
       </div>
     </div>
     <div className="ss-go-top">
