@@ -91,8 +91,6 @@ const Resume = () => (
             Created a project on Graph manipulation.
           </p>
         </div>
-        {' '}
-        {/* end resume-block */}
         <div className="resume-block" style={{ textAlign: 'left' }}>
           <div className="resume-block__header">
             <h4 className="h3">Birla Public School, Pilani (Rajasthan)</h4>
@@ -120,12 +118,8 @@ const Resume = () => (
             </ul>
           </p>
         </div>
-        {' '}
-        {/* end resume-block */}
       </div>
     </div>
-    {' '}
-    {/* s-resume__section */}
     <div className="row s-resume__section">
       <div className="column large-3 tab-12">
         <h3 className="section-header-allcaps">Skills</h3>
@@ -133,7 +127,6 @@ const Resume = () => (
       <div className="column large-9 tab-12">
         <div className="resume-block">
           <p style={{ textAlign: 'justify' }}>
-            {' '}
             Below I have listed the indicators with which you can quickly understand
             what I am strong at and what is weak.
           </p>
@@ -168,12 +161,8 @@ const Resume = () => (
             </li>
           </ul>
         </div>
-        {' '}
-        {/* end resume-block */}
       </div>
     </div>
-    {' '}
-    {/* s-resume__section */}
   </section>
 );
 

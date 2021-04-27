@@ -1,5 +1,4 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => (
   <header className="s-header">
@@ -16,11 +15,9 @@ const Header = () => (
           <li><a className="smoothscroll" hrclass="current" href="#about">About</a></li>
           <li><a className="smoothscroll" href="#resume">Resume</a></li>
           <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-          <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
           <li><a className="smoothscroll" href="#contact">Say Hello</a></li>
         </ul>
       </nav>
-
       <a href="#0" title="Menu">
         <span />
       </a>

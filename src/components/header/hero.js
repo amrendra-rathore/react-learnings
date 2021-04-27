@@ -1,5 +1,5 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import 'boxicons';
 
 const Hero = () => (
   <section id="hero" className="s-hero target-section">
@@ -23,35 +23,28 @@ const Hero = () => (
             .
           </h3>
           <div className="s-hero__content-social">
-            <a href="www.facebook.com">
-              <i className="fab fa-facebook" />
-              {/* <FontAwesomeIcon icon={['fab', 'facebook']} /> */}
-
+            <a href="https://www.facebook.com">
+              <box-icon type="logo" name="facebook" color="white" />
             </a>
             <a href="https://twitter.com/thewolfraptor">
-              {/* <FontAwesomeIcon icon="twitter" /> */}
+              <box-icon name="twitter" type="logo" color="white" />
             </a>
-            <a href="www.instaram.com" style={{ color: 'white' }}>
-              <i className="fab fa-instagram" />
+            <a href="https://www.instagram.com">
+              <box-icon name="instagram" type="logo" color="white" />
             </a>
-            <a href="https://dribbble.com/">
-              {/* <FontAwesomeIcon icon="dribble" /> */}
+            <a href="https://wa.link/4au3cj">
+              <box-icon name="whatsapp" type="logo" color="white" />
             </a>
-            <a href="https://www.behance.net/">
-              {/* <FontAwesomeIcon icon="behance" /> */}
+            <a href="https://github.com/amrendra-rathore">
+              <box-icon name="github" type="logo" color="white" />
             </a>
             <a href="https://in.linkedin.com/in/wolfraptor">
-              {/* <FontAwesomeIcon icon="linkedin" />
-          <FontAwesomeIcon icon="whatsapp" /> */}
+              <box-icon name="linkedin" type="logo" color="white" />
             </a>
           </div>
         </div>
-        {' '}
-        {/* end s-hero__content-about */}
       </div>
     </div>
-    {' '}
-    {/* s-hero__content */}
     <div className="s-hero__scroll">
       <a href="#about" className="s-hero__scroll-link smoothscroll">
         <span className="scroll-arrow">
@@ -60,8 +53,6 @@ const Hero = () => (
         <span className="scroll-text">Scroll Down</span>
       </a>
     </div>
-    {' '}
-    {/* s-hero__scroll */}
   </section>
 );
 

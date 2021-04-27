@@ -1,4 +1,5 @@
 import React from 'react';
+import 'boxicons';
 
 const Footer = () => (
   <footer className="s-footer">
@@ -7,32 +8,32 @@ const Footer = () => (
         <ul className="s-footer__social">
           <li>
             <a href="https://facebook.com">
-              <i className="fab fa-facebook-f" aria-hidden="true" />
-              Facebook
+              <box-icon type="logo" name="facebook" color="white" />
             </a>
           </li>
           <li>
             <a href="https://twitter.com/thewolfraptor">
-              <i className="fab fa-twitter" aria-hidden="true" />
-              Twitter
+              <box-icon name="twitter" type="logo" color="white" />
             </a>
           </li>
           <li>
             <a href="https://instagram.com">
-              <i className="fab fa-instagram" aria-hidden="true" />
-              Instagram
+              <box-icon name="instagram" type="logo" color="white" />
             </a>
           </li>
           <li>
-            <a href="https://dribbble.com/">
-              <i className="fab fa-dribbble" aria-hidden="true" />
-              Dribble
+            <a href="https://wa.link/4au3cj">
+              <box-icon name="whatsapp" type="logo" color="white" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/amrendra-rathore">
+              <box-icon name="github" type="logo" color="white" />
             </a>
           </li>
           <li>
             <a href="https://in.linkedin.com/in/wolfraptor">
-              <i className="fab fa-linkedin-in" aria-hidden="true" />
-              LinkedIn
+              <box-icon name="linkedin" type="logo" color="white" />
             </a>
           </li>
         </ul>
