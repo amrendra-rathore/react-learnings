@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
         <ul className="s-footer__social">
           <li>
-            <a href="https://facebook.com">
+            <a href="https://www.facebook.com/thewolfraptor">
               <box-icon type="logo" name="facebook" color="white" />
             </a>
           </li>
@@ -17,7 +17,7 @@ const Footer = () => (
             </a>
           </li>
           <li>
-            <a href="https://instagram.com">
+            <a href="https://www.instagram.com/wolfrapt0r/?hl=en">
               <box-icon name="instagram" type="logo" color="white" />
             </a>
           </li>

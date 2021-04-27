@@ -23,13 +23,13 @@ const Hero = () => (
             .
           </h3>
           <div className="s-hero__content-social">
-            <a href="https://www.facebook.com">
+            <a href="https://www.facebook.com/thewolfraptor">
               <box-icon type="logo" name="facebook" color="white" />
             </a>
             <a href="https://twitter.com/thewolfraptor">
               <box-icon name="twitter" type="logo" color="white" />
             </a>
-            <a href="https://www.instagram.com">
+            <a href="https://www.instagram.com/wolfrapt0r/?hl=en">
               <box-icon name="instagram" type="logo" color="white" />
             </a>
             <a href="https://wa.link/4au3cj">
